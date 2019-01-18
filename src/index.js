@@ -2,7 +2,7 @@ const app = require('express')();
 
 app.use('/', (req, res) => {
   res.status(200).json({
-    msg: 'hello',
+    msg: 'hello, world',
   });
 });
 
